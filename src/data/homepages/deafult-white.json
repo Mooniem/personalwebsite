@@ -6,16 +6,17 @@
             "section": "hero-section",
             "headings": [
                 {
-                    "content": "WELCOME TO MY WORLD"
+                    "content": "WELCOME TO MY WORLD OF WEB DEVELOPMENT"
                 },
                 {
-                    "content": "Hi, I’m <span>Jone Lee</span>"
+                    "content": "Hi, I’m <span>Katelyn Mei</span>"
                 }
             ],
             "animated_texts": [
-                "Developer.",
-                "Professional Coder.",
-                "Designer."
+                "Thinker.",
+                "Researcher.",
+                "Data Ethicist.",
+                "Data Scientist."
             ],
             "texts": [
                 {
