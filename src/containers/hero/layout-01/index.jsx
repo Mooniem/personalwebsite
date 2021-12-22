@@ -74,7 +74,7 @@ const HeroArea = ({ data, id }) => {
                                         {data?.socials && (
                                             <div className="social-share-inner-left">
                                                 <span className="title">
-                                                    find with me
+                                                    find me on
                                                 </span>
                                                 <Social>
                                                     {data.socials.map(
@@ -101,7 +101,7 @@ const HeroArea = ({ data, id }) => {
                                         {data?.skills && (
                                             <div className="skill-share-inner">
                                                 <span className="title">
-                                                    best skill on
+                                                    skilled at
                                                 </span>
                                                 <SkillShare>
                                                     {data.skills.map(
@@ -124,7 +124,13 @@ const HeroArea = ({ data, id }) => {
 
                         <div className="order-1 order-lg-2 col-lg-5">
                             {data?.images?.[0]?.src && (
-                                <div className="thumbnail">
+                                <div
+                                    className="thumbnail"
+                                    style={{
+                                        borderRadius: "10px",
+                                        overflow: "hidden",
+                                    }}
+                                >
                                     <div className="inner">
                                         <Image
                                             src={data.images[0].src}

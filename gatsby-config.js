@@ -1,13 +1,13 @@
 module.exports = {
     siteMetadata: {
         siteUrl: "https://www.yourdomain.tld",
-        title: "Inbio - Personal Portfolio React Template",
-        description: "Awesome Gatsby template",
-        author: "Rainbow IT",
+        title: "Katelyn Mei | Personal Website",
+        description: "",
+        author: "Katelyn Mei",
         siteLanguage: "en",
         image: "banner.jpg",
-        titleTemplate: "inbio",
-        twitterUsername: "@rainbowit",
+        titleTemplate: "Katelyn Mei",
+        twitterUsername: "@",
         getform_url:
             "https://getform.io/f/7a6695a7-c8e3-442c-bc2f-d46d3b9a535e",
         socials: [

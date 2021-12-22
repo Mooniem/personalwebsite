@@ -36,6 +36,7 @@
                     transition: var(--transition);
                     height: auto;
                     object-fit: cover;
+                    border-radius: 10px;
 
                     @media #{$md-layout} {
                         height: inherit;
