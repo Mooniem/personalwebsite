@@ -7,32 +7,31 @@ module.exports = {
         siteLanguage: "en",
         image: "banner.jpg",
         titleTemplate: "Katelyn Mei",
-        twitterUsername: "@",
+        twitterUsername: "@meikatelyn",
         getform_url:
             "https://getform.io/f/7a6695a7-c8e3-442c-bc2f-d46d3b9a535e",
         socials: [
             {
                 id: 1,
-                title: "facebook",
-                path: "https://facebook.com",
-                icon: "Facebook",
+                title: "twitter",
+                path: "https://twitter.com/meikatelyn",
+                icon: "Twitter",
             },
             {
                 id: 2,
-                title: "instagram",
-                path: "https://instagram.com",
-                icon: "Instagram",
+                title: "linkedin",
+                path: "https://www.linkedin.com/in/katelynmei/",
+                icon: "Linkedin",
             },
             {
                 id: 3,
-                title: "linkedin",
-                path: "https://linkedin.com",
-                icon: "Linkedin",
+                title: "github",
+                path: "https://github.com/Mooniem",
+                icon: "GitHub",
             },
         ],
         contact: {
-            phone: "01234567890",
-            email: "admin@example.com",
+            email: "xmei@middlebury.edu",
         },
     },
     plugins: [
