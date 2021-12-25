@@ -87,7 +87,7 @@ module.exports = {
             options: {
                 name: "Inbio",
                 short_name: "inbio",
-                theme_color: "#ff014f",
+                theme_color: "#fafafa",
                 background_color: "#ffffff",
                 display: "standalone",
                 scope: "/",
