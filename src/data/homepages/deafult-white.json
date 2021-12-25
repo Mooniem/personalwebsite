@@ -20,7 +20,7 @@
             ],
             "texts": [
                 {
-                    "content": "I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that."
+                    "content": "I am passionate about studying human behaviors through a interdisciplinary lens. "
                 }
             ],
             "skills": [
@@ -66,14 +66,14 @@
             "items": [
                 {
                     "id": 1,
-                    "title": "Business Stratagy",
+                    "title": "Data Analysis",
                     "description": "I throw myself down among the tall grass by the stream as I lie close to the earth.",
                     "icon": "Menu",
                     "path": "#!"
                 },
                 {
                     "id": 2,
-                    "title": "App Development",
+                    "title": "Research",
                     "description": "It uses a dictionary of over 200 Latin words, combined with a handful of model sentence.",
                     "icon": "BookOpen",
                     "path": "#!"
@@ -242,8 +242,7 @@
             "id": "default-home-resume",
             "section": "resume-section",
             "section_title": {
-                "title": "My Resume",
-                "subtitle": "7+ Years of Experience"
+                "title": "My Resume"
             }
         },
         {
@@ -255,19 +254,18 @@
                     "id": "education-section-left",
                     "section_title": {
                         "title": "Education Quality",
-                        "subtitle": "2007 - 2010"
+                        "subtitle": "2018 - 2022"
                     },
                     "items": [
                         {
                             "id": 1,
-                            "title": "Personal Portfolio April Fools",
-                            "subtitle": "University of DVI (1997 - 2001)",
-                            "rating": "4.30/5",
-                            "description": "The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
+                            "title": "B.A, Psychology and Mathematics",
+                            "subtitle": "Middlebury College (2018-2022)",
+                            "description": "Coursework: Statistical Learning, Probability, Introduction to Data Science, Research Methods, Educational Psychology "
                         },
                         {
                             "id": 2,
-                            "title": "Examples Of Personal Portfolio",
+                            "title": "Honors and Awards",
                             "subtitle": "College of Studies (2000 - 2002)",
                             "rating": "4.50/5",
                             "description": "Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."

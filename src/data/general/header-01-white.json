@@ -3,10 +3,10 @@
     "section": "header-1-white",
     "logo": [
         {
-            "src": "../images/logo/logo-dark.png"
+            "src": "../images/logo/svg-path.svg"
         },
         {
-            "src": "../images/logo/logo-dark.png"
+            "src": "../images/logo/svg-path.svg"
         }
     ],
     "slogan": "##"

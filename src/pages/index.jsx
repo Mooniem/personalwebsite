@@ -5,13 +5,14 @@ import { normalizedData } from "@utils";
 import Layout from "@layout";
 import Header from "@layout/header/layout-01";
 import Footer from "@layout/footer/layout-01";
-import HeroArea from "@containers/hero/layout-01";
+//import HeroArea from "@containers/hero/layout-01";
+import HeroArea from "@containers/hero/custom";
 import ServicesArea from "@containers/service/layout-01";
 import PortfolioArea from "@containers/portfolio/layout-01";
 import ResumeArea from "@containers/resume/layout-01";
 import TestimonialArea from "@containers/testimonial/layout-01";
-import ClientArea from "@containers/client/layout-01";
-import PricingArea from "@containers/pricing/layout-01";
+//import ClientArea from "@containers/client/layout-01";
+//import PricingArea from "@containers/pricing/layout-01";
 import BlogArea from "@containers/blog/layout-01";
 import ContactArea from "@containers/contact/layout-01";
 import EducationArea from "@containers/education/layout-01";
@@ -38,17 +39,17 @@ const IndexPage = ({ data }) => {
                         socials: data.site.siteMetadata.socials,
                     }}
                 />
-                <ServicesArea data={content["service-section"]} />
-                <PortfolioArea data={content["portfolio-section"]} />
                 <ResumeArea data={content["resume-section"]}>
                     <EducationArea data={content["education-section"]} />
                     <SkillArea data={content["skill-section"]} />
                     <ExperienceArea data={content["experience-section"]} />
                     <InterviewArea data={content["interview-section"]} />
                 </ResumeArea>
+                <PortfolioArea data={content["portfolio-section"]} />
+                <ServicesArea data={content["service-section"]} />
                 <TestimonialArea data={content["testimonial-section"]} />
-                <ClientArea data={content["client-section"]} />
-                <PricingArea data={content["pricing-section"]} />
+                {/* <ClientArea data={content["client-section"]} /> */}
+                {/* <PricingArea data={content["pricing-section"]} /> */}
                 <BlogArea
                     data={{
                         ...content["blog-section"],

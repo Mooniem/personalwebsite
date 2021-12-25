@@ -9,36 +9,16 @@
         },
         {
             "id": 2,
-            "text": "Features",
-            "path": "features"
-        },
-        {
-            "id": 3,
             "text": "Portfolio",
             "path": "portfolio"
         },
         {
-            "id": 4,
+            "id": 3,
             "text": "Resume",
             "path": "resume"
         },
         {
-            "id": 5,
-            "text": "Clients",
-            "path": "clients"
-        },
-        {
-            "id": 6,
-            "text": "Pricing",
-            "path": "pricing"
-        },
-        {
-            "id": 7,
-            "text": "Blog",
-            "path": "blog"
-        },
-        {
-            "id": 8,
+            "id": 4,
             "text": "Contact",
             "path": "contacts"
         }
