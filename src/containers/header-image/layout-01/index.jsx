@@ -10,7 +10,7 @@ const HeaderImage = ({ data }) => {
                 {data?.images?.[0]?.src && (
                     <Image
                         className="w-100 h-100"
-                        src={data.images[0].src}
+                        src={"/assets/images/logo/logo.svg"}
                         alt={data.images[0]?.alt || "Header BG"}
                     />
                 )}

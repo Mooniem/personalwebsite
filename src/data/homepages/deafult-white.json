@@ -5,9 +5,7 @@
             "id": "default-home-hero",
             "section": "hero-section",
             "headings": [
-                {
-                    "content": "WELCOME TO MY WORLD OF WEB DEVELOPMENT"
-                },
+                {},
                 {
                     "content": "Hi, I’m <span>Katelyn Mei</span>"
                 }
@@ -51,8 +49,8 @@
             ],
             "images": [
                 {
-                    "src": "../images/slider/banner-01.png",
-                    "alt": "Personal Portfolio Images"
+                    "src": "../images/slider/banner-01.jpg",
+                    "alt": ""
                 }
             ]
         },

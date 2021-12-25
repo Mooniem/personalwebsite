@@ -25,11 +25,9 @@ const Header = ({ className, data }) => {
             >
                 <div className="header-wrapper rn-popup-mobile-menu m--0 row align-items-center">
                     <div className="col-lg-2 col-6">
-                        {data?.logo?.[0]?.src && (
-                            <div className="header-left">
-                                <Logo image={data.logo[0]} />
-                            </div>
-                        )}
+                        <div className="header-left">
+                            <Logo src={"/svg-path.svg"} />
+                        </div>
                     </div>
 
                     <div className="col-lg-10 col-6">

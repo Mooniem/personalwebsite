@@ -5,16 +5,10 @@ import cn from "classnames";
 import Image from "@ui/image";
 import { ImageType } from "@utils/types";
 
-const Logo = ({ className, image }) => {
-    console.log(image);
+const Logo = ({ className, src }) => {
     return (
         <div className={cn("logo", className)}>
-            <Link to="/">
-                {image?.src && (
-                    //<Image src={image.src} alt={image?.alt || "logo"} />
-                    <img src={image} alt={image?.alt || "logo"} />
-                )}
-            </Link>
+            <Link to="/">{src && <img src={src} alt={"logo"} />}</Link>
         </div>
     );
 };

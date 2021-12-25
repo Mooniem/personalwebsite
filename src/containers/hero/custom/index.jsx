@@ -52,7 +52,7 @@ const HeroArea = ({ data, id }) => {
                                                             }
                                                             typeSpeed={50}
                                                             backSpeed={50}
-                                                            backDelay={2}
+                                                            backDelay={3000}
                                                             loop
                                                             smartBackspace
                                                         />
@@ -97,27 +97,6 @@ const HeroArea = ({ data, id }) => {
                                             </div>
                                         )}
                                     </div>
-                                    <div className="col-lg-6 col-xl-6 col-md-6 col-sm-6 col-12 mt_mobile--30">
-                                        {data?.skills && (
-                                            <div className="skill-share-inner">
-                                                <span className="title">
-                                                    skilled at
-                                                </span>
-                                                <SkillShare>
-                                                    {data.skills.map(
-                                                        (skill) => (
-                                                            <SkillItem
-                                                                key={skill.id}
-                                                                image={
-                                                                    skill.image
-                                                                }
-                                                            />
-                                                        )
-                                                    )}
-                                                </SkillShare>
-                                            </div>
-                                        )}
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -127,13 +106,17 @@ const HeroArea = ({ data, id }) => {
                                 <div
                                     className="thumbnail"
                                     style={{
-                                        borderRadius: "10px",
+                                        borderRadius: "64px", //10px
+
+                                        objectFit: "cover",
+                                        objectPosition: "center",
                                         overflow: "hidden",
                                     }}
                                 >
                                     <div className="inner">
                                         <Image
-                                            src={data.images[0].src}
+                                            //src={data.images[0].src}
+                                            src={"/kmei-compressed.webp"}
                                             alt={data.images[0]?.alt || "Hero"}
                                         />
                                     </div>
